@@ -7,7 +7,8 @@ $2. The slot machine works with a clock, and a register which enables the bet.
 
 Followings are the inputs, outputs and registers created for this machine: 
 
-**==>Inputs**
+
+***Inputs**
 
 ● Clock
 
@@ -19,7 +20,8 @@ Followings are the inputs, outputs and registers created for this machine:
 
 ● Credit : Credit is the amount of money the user inserts in order for the game to start (Minimum of $2 is needed for the game to start)
 
-**==>Outputs**
+
+***Outputs**
 
 ● Bet_1d: bet_1d is the output from the RNH which shows that $1 was bet by the user.
 
@@ -29,7 +31,8 @@ Followings are the inputs, outputs and registers created for this machine:
 
 ● Rnum  : Rnum1, rnum2, and rnum3 are generated in the modules rgen1, rgen2, and rgen3 based on the input seeds. They are three random numbers that are used to choose           if the user is winner or not. 
 
-**==>Registers**
+
+***Registers**
 
 ● Fund_reg: Fund register is a register which holds the value of the output fund and does addition or subtraction to it and once collect input is triggered, fund                     register gives it’s value to the fund output in order for the user to collect their money.
 
