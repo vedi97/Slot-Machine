@@ -8,9 +8,12 @@ $2. The slot machine works with a clock, and a register which enables the bet.
 Followings are the inputs, outputs and registers created for this machine: 
 
 **Inputs**
-● Clock/n
-● Collect: This input is to collect the fund either when the input credit is finished or not./n
+● Clock
+
+● Collect: This input is to collect the fund either when the input credit is finished or not.
+
 ● Bet    : Bet input is the bet for $1 or $2. One_d = 01 = $1, two_d = 10 = $2.
+
 ● Seed   : Seed is the initial number given by myself in order to start generating the random numbers.
 ● Credit : Credit is the amount of money the user inserts in order for the game to start (Minimum of $2 is needed for the game to start)
 
